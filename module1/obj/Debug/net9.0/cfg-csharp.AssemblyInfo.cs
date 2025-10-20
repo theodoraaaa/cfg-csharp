@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cfg-csharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b22de6a0e5ae296e8de5143cb646608a0319def5")]
 [assembly: System.Reflection.AssemblyProductAttribute("cfg-csharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cfg-csharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,3 +12,4 @@ C:\Users\ntc83\OneDrive - Newcastle University\Courses\cfg-csharp\module1\obj\De
 C:\Users\ntc83\OneDrive - Newcastle University\Courses\cfg-csharp\module1\obj\Debug\net9.0\cfg-csharp.pdb
 C:\Users\ntc83\OneDrive - Newcastle University\Courses\cfg-csharp\module1\obj\Debug\net9.0\cfg-csharp.genruntimeconfig.cache
 C:\Users\ntc83\OneDrive - Newcastle University\Courses\cfg-csharp\module1\obj\Debug\net9.0\ref\cfg-csharp.dll
+C:\Users\ntc83\OneDrive - Newcastle University\Courses\cfg-csharp\module1\obj\Debug\net9.0\cfg-csharp.sourcelink.json

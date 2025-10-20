@@ -2,18 +2,21 @@
 Console.WriteLine("Hello, World!");
 
 // Name of user
-string
+string fullName = "Jane Doe";
 // Age of user
-int
+int age = 25;
 // Whether they have opted in to the newsletter
-bool
+bool newsletter = true;
 
-int // used to store whole numbers
+char myChar = 'A';// used to store a single character
 
-char // used to store a single character
+double myDouble = 3.14; // used to store a decimal value
 
-bool // used to store true/false values
+Console.WriteLine(fullName);
+Console.WriteLine(age);
+Console.WriteLine(newsletter);
 
-double // used to store a decimal value
+fullName = "Jane Smith";
 
-string // used to store textual information
+Console.WriteLine(fullName);
+

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("joining-strings")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1036fa5815d0825a449cc3baa2075f946f79fd59")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d0306a2279f9066e9424666df16636833cea08b")]
 [assembly: System.Reflection.AssemblyProductAttribute("joining-strings")]
 [assembly: System.Reflection.AssemblyTitleAttribute("joining-strings")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

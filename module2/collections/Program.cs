@@ -20,3 +20,31 @@ string[] fruity = new string[] { "apple", "plum", "cherry" };
 Console.WriteLine(fruity[0]); // apple
 Console.WriteLine(fruity[1]); // plum
 Console.WriteLine(fruity[2]); // cherry
+
+// Lists
+
+List<string> fruitList = new List<string>(); // () for when elements aren't known at compile time
+
+fruitList.Add("apple");
+fruitList.Add("plum");
+fruitList.Add("cherry");
+
+List<string> fruitList2 = new List<string>{"apple", "plum", "cherry"}; // {} for when elements are known at compile time
+
+Console.WriteLine(fruitList[0]); // apple
+Console.WriteLine(fruitList[1]); // plum
+Console.WriteLine(fruitList[2]); // cherry
+
+fruitList2.Add("banana");
+fruitList2.Add("strawberry");
+fruitList2.Add("kiwi");
+
+// apple, plum, cherry, banana, strawberry, kiwi
+
+fruitList2.Remove("kiwi");
+
+// Console.WriteLine(fruitList2[5]); // returns an error because we removed kiwi
+
+fruitList2.RemoveAt(0); // removes apple
+
+Console.WriteLine(fruitList2[0]); // now plum

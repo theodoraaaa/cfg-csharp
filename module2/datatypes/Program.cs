@@ -1,7 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-
-// Name of user
+﻿// Name of user
 string fullName = "Jane Doe";
 // Age of user
 int age = 25;

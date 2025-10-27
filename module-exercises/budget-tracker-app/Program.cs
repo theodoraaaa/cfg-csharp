@@ -33,3 +33,42 @@ fixedExpenses.Add(9.99);  // Spotify
 
 Console.WriteLine("Internet: " + fixedExpenses[3]);
 Console.WriteLine("Spotify: " + fixedExpenses[4]);
+
+// 7. Add two new variables valled grocerySpent and entertainmentSpent and assign them values
+double grocerySpent = 350.00;
+double entertainmentSpent = 100.00; 
+
+// 8. Use an if statement to check wheter grocerySpent is highr than the groceryBudget and do the same for entertainment
+if (grocerySpent > groceryBudget)
+{
+    Console.WriteLine("You are over budget for groceries!");
+} else
+{
+    Console.WriteLine("You are within budget for groceries.");
+}
+if (entertainmentSpent > entertainmentBudget)
+{
+    Console.WriteLine("You are over budget for entertainment!");
+} else
+{
+    Console.WriteLine("You are within budget for entertainment.");
+}
+
+// 9. Calculate the remaining budget by doing groceryBudget - grocerySpent using arithemetic operators
+double remainingGroceryBudget = groceryBudget - grocerySpent;
+double remainingEntertainmentBudget = entertainmentBudget - entertainmentSpent;
+
+Console.WriteLine($"Remaining grocery budget: {remainingGroceryBudget}");
+Console.WriteLine($"Remaining entertainment budget: {remainingEntertainmentBudget}");
+
+// 10. Create an if statement to check if we are within budget for groceries and entertainment using logic operators
+if(grocerySpent <= groceryBudget && entertainmentSpent <= entertainmentBudget)
+{
+    Console.WriteLine("You are within budget for both groceries and entertainment!");
+} else if (grocerySpent <= groceryBudget || entertainmentSpent <= entertainmentBudget)
+{
+    Console.WriteLine("You are within budget for one of your spending limits.");
+} else
+{
+    Console.WriteLine("You are over budget for both groceries and entertainment.");
+}

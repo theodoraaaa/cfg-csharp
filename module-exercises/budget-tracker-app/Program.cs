@@ -72,3 +72,43 @@ if(grocerySpent <= groceryBudget && entertainmentSpent <= entertainmentBudget)
 {
     Console.WriteLine("You are over budget for both groceries and entertainment.");
 }
+
+// 11. Declare a list of expenses with the values 700, 50, 150, 25, 30
+List<double> expenses = new List<double> { 700, 50, 150, 25, 30 };
+
+// 12. Create a loop to calculate the total expenses
+//double totalExpenses = 0;
+//for (int i = 0; i < expenses.Count; i++)
+//{
+ //   totalExpenses = totalExpenses + expenses[i]; // iteratively adds expenses to each other
+//}
+
+// Console.WriteLine("The total cost of our expenses is: " + totalExpenses);
+
+// 13. Create a method called CalculateTotalExpenses to calculate total expenses
+double CalculateTotalExpenses(List<double> expenses)
+{
+    double totalExpenses = 0;
+for (int i = 0; i < expenses.Count; i++)
+{
+    totalExpenses = totalExpenses + expenses[i]; // iteratively adds expenses to each other
+}
+return totalExpenses;
+}
+
+// 14. Call the method
+// Console.WriteLine("The total cost of our expenses is: " + CalculateTotalExpenses(expenses));
+
+// 15. Create a variable called spendingLimit and set it to 900
+double spendingLimit = 900;
+
+// 16. Use a while loop to add expenses from the list until limit is reached or exceeded
+int i = 0;
+double currentTotal = 0;
+while (i < expenses.Count && currentTotal < spendingLimit)
+{
+    currentTotal += expenses[i];
+    i++;
+}
+
+Console.WriteLine("The total cost of expenses: " + currentTotal);

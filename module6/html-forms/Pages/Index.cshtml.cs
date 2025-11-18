@@ -5,15 +5,17 @@ namespace html_forms.Pages;
 
 public class IndexModel : PageModel
 {
-    private readonly ILogger<IndexModel> _logger;
+    [BindProperty]
+    string Username {get; set;}
+    
+    [BindProperty]
+    bool Newsletter {get; set;}
 
-    public IndexModel(ILogger<IndexModel> logger)
+    bool Submitted {get; set;}
+
+    void OnGet()
     {
-        _logger = logger;
-    }
+        Submitted = true;
+    }   
 
-    public void OnGet()
-    {
-
-    }
 }

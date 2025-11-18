@@ -11,13 +11,13 @@
 
 <form method="post">
     <div
-        <label>Username:</label>
-        <input type="text">
+        <label asp-for="Username">Username:</label>
+        <input type="text" asp-for="Username" required>
     </div>
 
     <div>
-        <label>Subscribe to the newsletter?</label>
-        <input type="checkbox">
+        <label asp-for="Newsletter">Subscribe to the newsletter?</label>
+        <input type="checkbox" asp-for="Newsletter">
     </div>
 
     <div></div>

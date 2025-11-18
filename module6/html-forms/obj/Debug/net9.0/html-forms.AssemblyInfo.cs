@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("html-forms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba3bf01a5ed005eed623816d5286a94202e0c8c0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bfa42f4cba5bf2023a7e0db6d2dc2d97abe6b10")]
 [assembly: System.Reflection.AssemblyProductAttribute("html-forms")]
 [assembly: System.Reflection.AssemblyTitleAttribute("html-forms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

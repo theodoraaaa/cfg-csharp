@@ -6,14 +6,14 @@ namespace html_forms.Pages;
 public class IndexModel : PageModel
 {
     [BindProperty]
-    string Username {get; set;}
+    public string Username {get; set;}
     
     [BindProperty]
-    bool Newsletter {get; set;}
+    public bool Newsletter {get; set;}
 
-    bool Submitted {get; set;}
+    public bool Submitted {get; set;}
 
-    void OnGet()
+    public void OnPost()
     {
         Submitted = true;
     }   

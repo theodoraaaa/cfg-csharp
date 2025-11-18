@@ -25,3 +25,11 @@
     </div>
 
 </form>
+
+
+@if(Model.Submitted == true)
+{
+    <h2>Form submission result</h2>
+    <p>Username: @Model.Username</p>
+    <p>Subscribed to newsletter? @Model.Newsletter </p>
+}

@@ -4,7 +4,39 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h1>Budget Tracker</h1>
+
+<form method="post">
+
+    <div>
+        <label>Expense 1:</label>
+        <input type="number" asp-for="Expense1">
+    </div>
+
+    <div>
+        <label>Expense 2:</label>
+        <input type="number" asp-for="Expense2">
+    </div>
+
+    <div>
+        <label>Expense 3:</label>
+        <input type="number" asp-for="Expense3">
+    </div>
+
+    <div>
+        <label>Expense 4:</label>
+        <input type="number" asp-for="Expense4">
+    </div>
+
+    <div>
+        <label>Expense 5:</label>
+        <input type="number" asp-for="Expense5">
+    </div>
+
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+    
+</form>
+
+<h2>Total expenses: @Model.TotalExpenses</h2>

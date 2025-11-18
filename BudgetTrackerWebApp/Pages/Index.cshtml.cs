@@ -5,15 +5,21 @@ namespace BudgetTrackerWebApp.Pages;
 
 public class IndexModel : PageModel
 {
-    private readonly ILogger<IndexModel> _logger;
+    [BindProperty]
+    public double Expense1 {get; set;}
+    [BindProperty]
+    public double Expense2 {get; set;}
+    [BindProperty]
+    public double Expense3 {get; set;}
+    [BindProperty]
+    public double Expense4 {get; set;}
+    [BindProperty]
+    public double Expense5 {get; set;}    
 
-    public IndexModel(ILogger<IndexModel> logger)
+    public double TotalExpenses {get; set;}  
+
+    public void OnPost()
     {
-        _logger = logger;
-    }
-
-    public void OnGet()
-    {
-
+        TotalExpenses = Expense1 + Expense2 + Expense3 + Expense4 + Expense5;
     }
 }
